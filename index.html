@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neko Meme</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+  }
+
+  .bg {
+    /* The image used */
+    background-image: url('neko_background.png');
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .neko-logo {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .neko-character {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: float 5s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translate(-50%, -50%) scale(1); }
+    50% { transform: translate(-50%, -45%) scale(1.05); }
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .neko-logo {
+      width: 200px;
+    }
+    .neko-character {
+      width: 150px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="bg">
+   <img src="NEKO_MEME_logo.png" alt="Neko Meme logo" class="neko-logo">
+   <img src="neko_character.png" alt="Neko character" class="neko-character">
+   <div class="content">
+      <h1>Welcome to the Neko Meme Project</h1>
+      <p>Innovative meme token inspired by the viral 'Dubidubidu' cat meme.</p>
+      <p>Join our enthusiastic community and be part of the journey to the moon!</p>
+   </div>
+</div>
+
+</body>
+</html>
