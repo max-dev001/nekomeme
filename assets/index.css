@@ -454,28 +454,27 @@ section {
 
 .section5title {
   position: absolute;
-  left: 25%;
-  top: 23%;
+  left: 24%;
+  top: 25%;
   font-size: 4.5vw;
 }
 
 .section5text1 {
   position: absolute;
-  top: 29%;
-  left: 50%;
+  top: 33%;
+  left: 48%;
   transform: translate(-50%, 0);
   font-size: 2vw;
 }
 
 .section5text {
   position: absolute;
-  bottom: 0;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, 0);
-  display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 2.4vw;
 }
 
 .social-link div a {
@@ -521,7 +520,12 @@ section {
   font-size: 1.8vw;
 }
 
-
+#section5{
+  height: 100vw;
+  background-image: url("/assets/image/img_5.png");
+  background-position: center;
+  background-size: cover;
+}
 
 .section5text1 {
   display: flex;
@@ -532,34 +536,6 @@ section {
 .contractgroups {
   padding: 0 1rem ;
   margin-bottom: 1rem !important;
-}
-
-@media only screen and (max-width: 700px){
-  .section4text{
-    font-size: 3.4vw;
-    top:30%;
-    width: 80%;
-  }
-  .section4text p {
-    margin-bottom: 0.5rem;
-  }
-  
-  
-  .contractgroups {
-    padding: 0 1rem ;
-    margin-bottom: 0.5rem !important;
-  }
-  .contractgroups .contract{ 
-    font-size: 3vw !important;
-  }
-
-  .contractgroups .input{ 
-    font-size: 3vw !important;
-  }
-
-  .itemcenter .section5btn{
-     margin: 0 0.2rem;
-  }
 }
 
 .social-list {
@@ -577,6 +553,49 @@ section {
   text-decoration: none;
   color: white;
 }
+
+@media only screen and (max-width: 700px){
+  #section5 {
+    height: 130vw;
+  }
+  .social-list{
+    top:84% ;
+    gap:28%;
+    left: 25%;
+    font-size:2.4vw;
+  }
+  .section5title{
+    top:24%;
+    font-size: 5vw;
+    left:22%;
+  }
+  
+  .section5text{
+    font-size: 3.4vw;
+    width: 80%;
+  }
+  .section4text p {
+    margin-bottom: 0.5rem;
+  }
+
+  .contractgroups {
+    padding: 0 1rem ;
+    margin-bottom: 0.5rem !important;
+  }
+  .contractgroups .contract{ 
+    font-size: 3vw !important;
+  }
+
+  .contractgroups .input{ 
+    font-size: 3vw !important;
+  }
+
+  .itemcenter .section5btn{
+     margin: 0 0.2rem;
+  }
+}
+
+
 
 @media only screen and (max-width: 600px) {
 
