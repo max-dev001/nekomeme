@@ -296,7 +296,7 @@ section {
 
 #section2 {
   height: 80vw;
-  background-image: url("/assets/image/img_2.png");
+  background-image: url("./image/img_2.png");
   background-position: center;
   background-size: cover;
 }
@@ -362,7 +362,7 @@ section {
 
 #section4 {
   height: 80vw;
-  background-image: url("/assets/image/img_4.png");
+  background-image: url("./image/img_4.png");
   background-position: center;
   background-size: cover;
 }
@@ -522,7 +522,7 @@ section {
 
 #section5{
   height: 100vw;
-  background-image: url("/assets/image/img_5.png");
+  background-image: url("./image/img_5.png");
   background-position: center;
   background-size: cover;
 }
