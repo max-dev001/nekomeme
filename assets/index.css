@@ -312,7 +312,7 @@ section {
 }
 
 .section2text p {
-  text-align: justify;
+  text-align: center;
 }
 
 .section2-1p{
@@ -363,12 +363,12 @@ section {
 
 @media only screen and (max-width: 648px) {
   .section3text {
-    height: 50%;
+    height: 47%;
     font-size: 3vw
   }
   .section3text p {
-    text-align: justify;
-    margin-bottom: 0;
+    text-align: center;
+    margin-bottom: 0.3rem;
   }
 }
 
@@ -448,7 +448,7 @@ section {
   .section4body{
     top:25%;
     font-size: 3vw;
-    width: 75%;
+    width: 73%;
     left:11%
   }
   
@@ -457,7 +457,7 @@ section {
   }
 
   .section4body p{
-    text-align: justify;
+    text-align: center;
     margin-bottom: 0.5rem;
   }
 
