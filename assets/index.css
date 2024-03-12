@@ -521,24 +521,33 @@ section {
   font-size: 1.8vw;
 }
 
+
+
 .section5text1 {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
 
+.contractgroups {
+  padding: 0 1rem ;
+  margin-bottom: 1rem !important;
+}
+
 @media only screen and (max-width: 700px){
   .section4text{
     font-size: 3.4vw;
-    top:28%;
+    top:30%;
     width: 80%;
   }
   .section4text p {
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
+  
   
   .contractgroups {
     padding: 0 1rem ;
+    margin-bottom: 0.5rem !important;
   }
   .contractgroups .contract{ 
     font-size: 3vw !important;
