@@ -253,6 +253,8 @@ section {
 .section {
   width: 100%;
   position: relative;
+  line-height: 1.2;
+  font-weight: 350;
 }
 
 .sectionbg {
@@ -309,18 +311,28 @@ section {
   font-size: 1.8vw;
 }
 
+.section2text p {
+  text-align: justify;
+}
+
+.section2-1p{
+  color: #52499F;
+}
+
 @media only screen and (max-width: 648px) {
  #section2 {
   height: 135vw;
  }
+ 
  .section2text{
   top: 53%;
   max-width: 75%;
   font-size:3.2vw
  }
  .section2text p{
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
   letter-spacing: -0.3px;
+
  }
  .section2text h2 {
   font-size: 5vw;
@@ -396,6 +408,10 @@ section {
   text-align: center;
 }
 
+.section4body h5{
+  color: #5E35A2;
+}
+
 .BuyNEKO {
   background-color: #6210d6;
   border-radius: 25px;
@@ -414,34 +430,35 @@ section {
     height: 125vw;
   }
   .section4title{
-    font-size: 7vw;
-    left: 33%;
-    top: 7%;
+    font-size: 9vw;
+    left: 29%;
+    top: 9%;
   }
   .getitnow{
     padding:0.1rem 0.2rem ;
-    font-size:4vw; 
-    width: 40%;
-    top: 14%;
+    font-size:3vw; 
+    width: 30%;
+    top: 19%;
     left:50%;
   }
   .section4body h5{
     font-size: 4.5vw;
+    color: #5E35A2;
   }
   .section4body{
-    top:20%;
-    font-size: 3.5vw;
+    top:25%;
+    font-size: 3vw;
     width: 75%;
     left:11%
   }
   
   .section4body  ol{
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .section4body p{
     text-align: justify;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
    .BuyNEKO {
@@ -481,34 +498,11 @@ section {
   text-decoration: none;
 }
 
-.section5btn {
-  background-color: #6210d6;
-  border-radius: 20px;
-  padding: 0.2rem 0.3rem;
-  width: 30%;
-  color: white;
-  margin: 0 2rem ;
-}
-
-.contract {
-  color: white !important;
-  background-color: #6210d6 !important;
-  border-radius: 50px 0 0 50px !important;
-  font-size: 1.8vw !important;
-  height: 5vw;
-  padding-left: 1rem !important; 
-  padding-right: 1rem !important;
-}
-
-.input{
-  height: 5vw !important;
-  border-radius: 0 50px 50px 0 !important;
-  font-size:1.8vw !important;
-}
 
 .itemcenter {
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .section4text {
@@ -533,9 +527,42 @@ section {
   gap: 40px;
 }
 
+
+.section5btn {
+  background-color: #6210d6;
+  border-radius: 20px;
+  padding: 0.2rem 0.3rem;
+  width: 30%;
+  color: white;
+  margin: 0 2rem ;
+}
+
 .contractgroups {
   padding: 0 1rem ;
   margin-bottom: 1rem !important;
+}
+
+.contract {
+  color: white !important;
+  background-color: #6210d6 !important;
+  border-radius: 50px 0 0 50px !important;
+  font-size: 2.5vw !important;
+  /* height: 5vw; */
+  padding: 0.1rem 0.5rem !important;
+}
+
+.input{
+  height: 5vw !important;
+  border-radius: 0 50px 50px 0 !important;
+  font-size:1.8vw !important;
+  
+}
+
+.section5-text{
+  position: absolute;
+  top:74%;
+  left:35%;
+  font-size: 2.4vw;
 }
 
 .social-list {
@@ -565,29 +592,43 @@ section {
     font-size:2.4vw;
   }
   .section5title{
-    top:24%;
+    top:23%;
     font-size: 5vw;
     left:22%;
   }
   
   .section5text{
+    top: 28%;
     font-size: 3.4vw;
     width: 80%;
   }
-  .section4text p {
-    margin-bottom: 0.5rem;
+
+  .section5-text{
+    font-size: 3.4vw;
+    left:25%;
+  }
+
+  .section5text p {
+    margin-bottom: 0.2rem;
+  }
+
+  .itemcenter{
+    margin-bottom: 0.2rem;
   }
 
   .contractgroups {
+    margin-top: 0.1rem !important;
     padding: 0 1rem ;
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 0.3rem !important;
   }
   .contractgroups .contract{ 
-    font-size: 3vw !important;
+    font-size: 3.4vw !important;
+    height: 6vw !important;
   }
 
   .contractgroups .input{ 
-    font-size: 3vw !important;
+    font-size: 3.4vw !important;
+    height: 6vw !important;
   }
 
   .itemcenter .section5btn{
