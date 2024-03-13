@@ -548,11 +548,13 @@ section {
   width: 30%;
   color: white;
   margin: 0 2rem ;
+  text-decoration:none;
 }
 
 .contractgroups {
   padding: 0 1rem ;
   margin-bottom: 1rem !important;
+  text-decoration: none;
 }
 
 .contract {
@@ -660,6 +662,7 @@ section {
     margin-top: 0.1rem !important;
     padding: 0 1rem ;
     margin-bottom: 0.3rem !important;
+    text-decoration: none;
   }
   .contractgroups .contract{ 
     font-size: 3.4vw !important;
